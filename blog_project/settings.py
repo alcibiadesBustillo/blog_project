@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'accounts.apps.AccountsConfig',
     # Other apps
+    'whitenoise.runserver_nostatic', # new!
     
 ]
 
